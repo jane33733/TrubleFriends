@@ -1352,10 +1352,10 @@ Setting.addList("theme", {
 &lt;/div&gt; &lt;!-- #main --&gt;
 
 &lt;footer&gt;
-&lt;!-- BACKWARDS AND FORWARDS BUTTONS, YOU CAN REMOVE THIS IF YOU DON&#39;T WANT THEM IN YOUR STORY --&gt;
-&lt;span id=&quot;backwards-button&quot;&gt;&lt;i class=&quot;fas fa-chevron-left&quot;&gt;&lt;/i&gt;&lt;/span&gt;
-&lt;span&gt;✦&lt;/span&gt;
-&lt;span id=&quot;forwards-button&quot;&gt;&lt;i class=&quot;fas fa-chevron-right&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+&lt;!-- 下面的小尾巴可以放儲存嗎 --&gt;
+&lt;span id=&quot;header-settings-button&quot;&gt;&lt;i class=&quot;fas fa-cog&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+&lt;span id=&quot;header-saves-button&quot;&gt;&lt;i class=&quot;fas fa-save&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+&lt;span id=&quot;header-fullscreen-button&quot;&gt;&lt;i class=&quot;fas fa-expand-arrows-alt&quot;&gt;&lt;/i&gt;
 &lt;/footer&gt;</tw-passagedata><tw-passagedata pid="2" name="StoryInit" tags="nobr" position="100,0" size="100,100">// FOR SETTING STATS THAT NEED TO BE IN PLAY AT THE START OF THE STORY
 
 // 第一章
@@ -1461,7 +1461,7 @@ Setting.addList("theme", {
 
 &lt;li&gt; &lt;&lt;link &quot;角色介紹&quot; &quot;stat page 1&quot;&gt;&gt;&lt;&lt;/link&gt;&gt; &lt;/li&gt;
 &lt;li&gt; [[劇情走向|stat page 2]] &lt;/li&gt;</tw-passagedata><tw-passagedata pid="5" name="stat page 2" tags="nobr noreturn edit stat-passage" position="108,312" size="100,100">&lt;div class=&quot;box header&quot;&gt;
-&lt;h1&gt;四位角色走訪遍變化&lt;/h1&gt;
+&lt;h1&gt;四位角色走訪變化&lt;/h1&gt;
 &lt;span class=&quot;star&quot;&gt;✦&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1557,7 +1557,9 @@ Setting.addList("theme", {
 &lt;i class=&quot;fab fa-pagelines&quot;&gt;&lt;/i&gt;
 
 &lt;!-- STORY SUBTITLE --&gt;
-&lt;h2&gt;困擾的小夥伴們&lt;/h2&gt;</tw-passagedata><tw-passagedata pid="10" name="story logo" tags="edit nobr" position="318,203" size="100,100">&lt;!-- STORY BANNER/LOGO POPULATED HERE --&gt;
+&lt;h2&gt;困擾的小夥伴們&lt;/h2&gt;
+
+</tw-passagedata><tw-passagedata pid="10" name="story logo" tags="edit nobr" position="318,203" size="100,100">&lt;!-- STORY BANNER/LOGO POPULATED HERE --&gt;
 
 &lt;div class=&quot;story-banner&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
@@ -1715,8 +1717,6 @@ This passage autosaves, and the next time the game opens the player will be able
 !!多麼快樂的迷路啊，奇蹟還沒發生，邀請函就要過期了。
 
 床位圖片
-[img[/picture/1/choice_bed.png]]
-
 &lt;img src=&quot;./picture/1/choice_bed.png&quot; class=&quot;responsive-img&quot;&gt;
 
 /* 2. 故事主要文字與句子預留區 */
